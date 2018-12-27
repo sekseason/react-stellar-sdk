@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 
+import Demo from './Demo';
+
 class App extends Component {
   render() {
     return (
@@ -11,6 +13,8 @@ class App extends Component {
             The Stella SDK demo via React
           </p>
         </header>
+
+        <Demo />
       </div>
     );
   }
